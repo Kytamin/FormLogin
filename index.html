@@ -8,26 +8,28 @@
 </head>
 <body>
 
-<div id="Form1">
+<div class="mx-auto pr-5 pl-5 pb-5 pt-5 bg-light" style="width: 350px;" >
 
-    <form class="bg-light">
-        <img id="img1" src="./img/logo.png" width="120">
-        <h1>Please sign in</h1>
-        <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" style="width: 250px">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    <form >
+        <div class="text-center">
+            <img id="img1" src="./img/logo.png" width="120">
+            <h1>Please sign in</h1>
         </div>
-        <div class="form-group">
-            <label for="exampleInputPassword1">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" style="width: 250px">
+
+
+        <div class="">
+            <input type="email" class="form-control w-100" id="exampleInputEmail1" aria-describedby="emailHelp"  placeholder="Email address">
         </div>
-        <div class="checkbox1">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+
+        <div class="">
+            <input type="password" class="form-control w-100" id="exampleInputPassword1"  placeholder="Pass word">
+        </div>
+        <div class="text-center">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1" >
             <label class="form-check-label" for="exampleCheck1">Remember me</label>
         </div>
         <br>
-        <button id="button1" type="submit" class="btn btn-primary">Login</button>
+        <button id="button1" type="submit" class="btn btn-primary w-100">Login</button>
     </form>
 </div>
 </body>
